@@ -1,5 +1,10 @@
 body {
     background-color: aqua;
     font-family: Arial, Helvetica, sans-serif;
+}
 
+h1{
+    color:aliceblue;
+    letter-spacing: 2px;
+    text-decoration: underline;
 }
