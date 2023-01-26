@@ -1,10 +1,75 @@
 body {
-    background-color: aqua;
+    background-color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
+    margin:0;
 }
 
 h1{
     color:aliceblue;
     letter-spacing: 2px;
     text-decoration: underline;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    height: 100px;
+    padding: 20px;
+    color:whitesmoke;
+    text-align: center;
+    font-weight: 900;
+
+
+}
+
+nav{
+    width: 100%;
+    background-color: #01016f;
+    height: 20px;
+    padding: 10px;
+    color: whitesmoke;
+
+}
+
+aside{
+    width: 300px;
+    height: 1000px;
+    background-color: #5a5a5a;
+    color: whitesmoke;
+    float: left;
+    padding: 10px;
+}
+
+article{
+    width:100px;
+    float: left;
+    background-color:#01016f;
+    margin: 20px;
+}
+
+section{
+    background-color: #9fcbee;
+    padding: 20px;
+}
+
+footer{
+    clear:both;
+    display: block;
+    background-color: 	#6497bf;
+    text-align: center;
+    padding: 20px;
+
+}
+
+img{
+    max-width: 100px;
+
+}
+
+.testpicture{
+    max-width: 250px;
+    border:5px solid white;
+    border-radius: 10px;
+    
+    
 }
