@@ -73,3 +73,38 @@ img{
     
     
 }
+
+a{
+    color:white;
+
+}
+
+div.default{
+    color:black;
+    width: 300px;
+    background-color: chartreuse;
+
+}
+
+div.myclass{
+    background-color: pink;
+}
+
+div#bg{
+    background-color: red;
+
+
+}
+
+button{
+    background: red;
+    padding: 5px 25px 5px 25px;
+    border: 1px solid black;
+    color: white;
+    font-weight:bold;
+
+}
+
+button:hover{
+    background:blue;
+}
