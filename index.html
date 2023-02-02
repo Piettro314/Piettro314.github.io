@@ -1,67 +1,90 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title> Piettro's Website - index</title>
-    <meta name="description" content="This is my website its really cool!">
-    <meta name="author" content="Piettro Tang">
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
+  <title>Piettro's Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style4.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    head{
+      background-color: aquamarine;
+      
+    }
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      background-color: black;
+      margin-bottom: 0;
+      border-radius: 0;
+    }
     
-    <header>
-        First page
-        <br>
-        <img src="Logo.JPG">
-    </header>
-    <a href="page3.html" target="_blank"><button>Big Red Button</button></a>
-    <nav>
-    <a href="index.html">Home</a>
-    <a href="#bg">Page 2</a>
-    <a href="page3.html" target="_blank">Page 3</a>  
-    </nav>
-<div class="default">You can do anything with this</div>
-<div class="myclass">Testing div </div>
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: black;
+      color: white;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
 
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><img src="#"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="http://127.0.0.1:5500/main.html#">Home</a></li>
+        <li><a href="http://127.0.0.1:5500/about.html#">About</a></li>
+      </ul>
 
-<h1>Hello World</h1>
+    </div>
+  </div>
+</nav>
 
-<h2>Hello World Again</h2>
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Piettro's Portfolio</h1>      
+    <p>The content on this page shows my progress into the world of data. The following projects represent the start of a journey. The project includes the utilization of SQL, SSIS, SSRS, and Power BI. The coming update is Python as I continue my journey into DATA. Much To Learn!</p>
+  </div>
+</div>
+ 
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-3">
+      <p>1st_Project_Power_BI_SQL_Gaming</p>
+      <a hrf="https://github.com/Piettro314/1st-Power-BI-gaming-project" target="_blank"><img src="BI stuff.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+    </div>
+    <div class="col-sm-3"> 
+      <p>2nd_Project_SSRS_SQL_Steam_RPGs</p>
+      <a href="https://github.com/Piettro314/Project-Steam-RPGs--Kaggle" target="_blank"><img src="RPG GAMING.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+    </div>
+    <div class="col-sm-3"> 
+      <p>3rd_Project_SSMS_SQL_ViewMartCreation</p>
+      <a href="https://github.com/Piettro314/ViewMart-Creation" target="_blank"><img src="ViewMart.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+    </div>
+    <div class="col-sm-3">
+      <p>4th_Project_SSIS_SQL_ETL</p>
+      <a href="https://github.com/Piettro314/ETL-with-SSIS" target="_blank"><img src="pexels-panumas-nikhomkhai-1148820.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+    </div>
+  </div>
+</div><br><hr>
 
-<h3>Hello World Another One!</h3>
-
-<h4>Hello World Yes!</h4>
-
-<h5>Hello World Not Again</h5>
-
-<h6>Hello World One more time</h6>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nulla ligula, volutpat quis consequat non, imperdiet sed lectus. Vestibulum orci turpis, lacinia facilisis sagittis mollis, consectetur vitae sem. </p>
-<p>Aecenas aliquet vitae leo a imperdiet. Donec dictum turpis sit amet lacus malesuada pretium. Etiam convallis lacus quis finibus aliquam. Vivamus pretium lectus vitae purus dignissim posuere. Pellentesque ac odio sagittis, dignissim lacus non, malesuada tortor.</p>
-
-<b>This is bold text</b> <br>
-<i>This is italics</i>
-<u>This is underline</u>
-
-<h2>My Grocery List</h2>
-<p>This is my groceries for the week</p>
-
-<ul>
-    <li>Kale</li>
-    <li>Oranges</li>
-    <li>Potatoes</li>
-    <li>Cheese</li>
-</ul>
-
-<ol>
-    <li>Chicken</li>
-    <li>Salt</li>
-    <li>Rice</li>
-    <li>Sugar</li>
-</ol>
-
-<div id="bg">This is an id background</div>
+<div>
+<p>Contact Information</p>
+<p>Email:</p>
+</div>
+<footer class="container-fluid text-center">
+  <p>&copy;  Piettro Tang. All Rights Reserved.</p>
+</footer>
 
 </body>
 </html>
