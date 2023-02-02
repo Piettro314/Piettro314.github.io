@@ -12,7 +12,8 @@ img{
 td{
 
     border: 1px solid black;
-    background-color: white;
+    background-color: green;
+    width: 100%;
 }
 
 
@@ -24,8 +25,8 @@ thead, tfoot{
 }
 
 .smartgoals{
-    background-color: lightgray;
-    width: 20%;
+    background-color:purple;
+    width: 25%;
 }
 
 #tablediv{
