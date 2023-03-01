@@ -1,93 +1,182 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Piettro's Portfolio</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <style>
- 
- /* Remove the navbar's default margin-bottom and rounded borders */ 
-    .navbar {
-      background-color: black;
-      margin-bottom: 0;
-      border-radius: 0;
-    }
-    
-    /* Add a gray background color and some padding to the footer */
-    footer {
-      background-color: black;
-      color: white;
-    }
-    .navbar-brand{
-        max-width: 300px;
-    }
+<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Piettro's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
 
-    .Contact{
-      text-align: center;
-      padding-right: 2%;
-    }
-  </style>
-</head>
-<body>
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Top</a></li>
+					<li><a href="#work">Work</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li><a href="about.html">About</a></li>
+				</ul>
+			</nav>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a><img class="navbar-brand" src="Logo.JPG"></a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="https://piettro314.github.io/#">Home</a></li>
-        <li><a href="https://piettro314.github.io/about.html#">About</a></li>
-      </ul>
+		<!-- Home -->
+			<article id="top" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image fit"><img src="images/Logo b.png" alt="" /></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<header>
+								<h1>Hi. I'm <strong>Piettro Tang</strong>.</h1>
+							</header>
+							<p>And this is the start of my journey into the world of data. As I continue down this path, I realize there is <strong>Much To Learn!</strong>.</p>
+							<a href="#work" class="button large scrolly">Learn about what I do</a>
+						</div>
+					</div>
+				</div>
+			</article>
 
-    </div>
-  </div>
-</nav>
+		<!-- Work -->
+		<article id="work" class="wrapper style2">
+			<div class="container">
+				<header>
+					<h2>Here's all the stuff I do.</h2>
+					<p></p>
+				</header>
+				<div class="row aln-center">
+					<div class="col-4 col-6-medium col-12-small">
+						<section class="box style1">
+							<span class="imageicon"><img src="images/img_397630.png" alt="" /></span>
+							<h3>Business Intelligence</h3>
+							<p>Combines effective communication and data analysis to help clients achieve desired data-driven results.</p>
+						</section>
+					</div>
+					<div class="col-4 col-6-medium col-12-small">
+						<section class="box style1">
+							<span class="imageicon"><img src="images/mentor-icon-png-1.png" alt="" /></span>
+							<h3>Problem Solving</h3>
+							<p>Quickly breaks down complex problems into simple, manageable, and achievable tasks..</p>
+						</section>
+					</div>
+					<div class="col-4 col-6-medium col-12-small">
+						<section class="box style1">
+							<span class="imageicon"><img src="images/R (2).png" alt="" /></span>
+							<h3>Strategic Thinking</h3>
+							<p>To assist in the creation of executable and trackable plans for solution implementation.</p>
+						</section>
+					</div>
+				</div>
+				<footer>
+					<p></p>
+					<a href="#portfolio" class="button large scrolly">See some of my recent work</a>
+				</footer>
+			</div>
+		</article>
+		
+		<!-- Portfolio -->
+			<article id="portfolio" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>Here’s some stuff I did recently.</h2>
+						<p>Links below lead to the Github repository where the projects reside.</p>
+					</header>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://github.com/Piettro314/Recreation-of-Reported-Road-Casualty-Statistics" class="image featured"><img src="images/10 day project.png" alt="" /></a>
+								<h3><a href="https://github.com/Piettro314/Recreation-of-Reported-Road-Casualty-Statistics">UK Road Casualty</a></h3>
+								<p><a href=""></a>Recreation 2018 UK report</p>
+							</article>							
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://github.com/Piettro314/ETL-with-SSIS" class="image featured"><img src="images/UKstats.png" alt="" /></a>
+								<h3><a href="https://github.com/Piettro314/ETL-with-SSIS">ETL-with-SSIS</a></h3>
+								<p>UK road stats- 3 day project</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://github.com/Piettro314/ViewMart-Creation" class="image featured"><img src="images/ViewMart.png" alt="" /></a>
+								<h3><a href="https://github.com/Piettro314/ViewMart-Creation">Datamart Creation</a></h3>
+								<p> Created using only views in SSMS.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://github.com/Piettro314/Project-Steam-RPGs--Kaggle" class="image featured"><img src="images/SSRS.png" alt="" /></a>
+								<h3><a href="https://github.com/Piettro314/Project-Steam-RPGs--Kaggle">Reporting with SSRS</a></h3>
+								<p>Utilizing SQL for Reporting in SSRS</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://github.com/Piettro314/1st-Power-BI-gaming-project" class="image featured"><img src="images/Power bi dashboard.png" alt="" /></a>
+								<h3><a href="https://github.com/Piettro314/1st-Power-BI-gaming-project">Power BI project</a></h3>
+								<p>Creating dashboard from Kaggle data.</p>
+							</article>			
+						</div>
+					</div>
+					<hr>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/V7XhZPL0mJc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					<footer>
+						<p>Always a student of learning.</p>
+					<div class="row">
+						
+					</div>
+					<br>
+					<br>
+						<a href="#contact" class="button large scrolly">Get in touch with me</a>						
+					</footer>
+				</div>
+			</article>
 
-<div class="jumbotron">
-  <div class="container text-center">
-    <h1>Piettro's Portfolio</h1>      
-    <p>The content on this page shows my progress into the world of data. The following projects represent the start of a journey. The project includes the utilization of SQL, SSIS, SSRS, and Power BI. The coming update while a Python Project as I continue my journey. Much To Learn!</p>
-  </div>
-</div>
- 
-<div class="container-fluid bg-3 text-center">    
-  <div class="row">  
-    <div class="col-sm-3"> 
-      <p>1st_Project_Power_BI_SQL_Gaming</p>
-      <a href="https://github.com/Piettro314/1st-Power-BI-gaming-project" target="_blank"><img src="BI stuff.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
-    </div>
-    <div class="col-sm-3"> 
-      <p>2nd_Project_SSRS_SQL_Steam_RPGs</p>
-      <a href="https://github.com/Piettro314/Project-Steam-RPGs--Kaggle" target="_blank"><img src="RPG GAMING.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
-    </div>
-    <div class="col-sm-3"> 
-      <p>3rd_Project_SSMS_SQL_ViewMartCreation</p>
-      <a href="https://github.com/Piettro314/ViewMart-Creation" target="_blank"><img src="ViewMart.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
-    </div>
-    <div class="col-sm-3">
-      <p>4th_Project_SSIS_SQL_ETL</p>
-      <a href="https://github.com/Piettro314/ETL-with-SSIS" target="_blank"><img src="pexels-panumas-nikhomkhai-1148820.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
-    </div>
-  </div>
-</div><br><hr>
+		<!-- Contact -->
+			<article id="contact" class="wrapper style4">
+				<div class="container medium">
 
-<div class="Contact">
-<h3>Contact Information</h3>
-<p>Email: piettro.0314@gmail.com</p>
-</div>
-<footer class="container-fluid text-center">
-  <p>&copy;  Piettro Tang. All Rights Reserved.</p>
-</footer>
+							<hr />
+							<h3>Find me on ...</h3>
+							<ul class="social">
+								
+								<li><a href="https://www.linkedin.com/in/piettro-tang/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/Piettro314" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<!--
+								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
+								<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
+								<li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
+								<li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
+								<li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
+								<li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
+								<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
+								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
+								-->
+							</ul>
+							<hr />
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; Piettro Tang. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+				</div>
+			</article>
 
-</body>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
